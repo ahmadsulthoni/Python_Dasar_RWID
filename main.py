@@ -16,6 +16,7 @@ print("Dan mulai berbelanja")
 jumlah_botol_susu = 125
 
 if jumlah_botol_susu > 0:
+    print("Budi mengecheck uangnya dan ternyata cukup")
     print("Budi membeli 1 botol susu")
 else:
     print("Budi tidak jadi membeli susu")
