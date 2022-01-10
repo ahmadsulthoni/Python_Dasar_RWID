@@ -13,7 +13,7 @@ print("Maka Budi berangkat ke toko")
 print("Dan mulai berbelanja")
 
 # Percabangan
-jumlah_botol_susu = 190
+jumlah_botol_susu = 125
 
 if jumlah_botol_susu > 0:
     print("Budi membeli 1 botol susu")
