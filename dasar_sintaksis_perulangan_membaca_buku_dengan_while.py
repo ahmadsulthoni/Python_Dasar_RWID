@@ -15,3 +15,4 @@ while Jumlah_buku_yang_sudah_dibaca < Jumlah_buku:
     print(f"Buku ke {Jumlah_buku_yang_sudah_dibaca} sudah di baca")
 
 print(f"Jumlah buku yang sudah di baca {Jumlah_buku_yang_sudah_dibaca}")
+print("Program Selesai")
