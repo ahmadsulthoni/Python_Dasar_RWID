@@ -12,7 +12,7 @@ print(f"Jumlah buku yang sudah di baca dan di pahami adalah {understood_count}")
 print("Dengan While Undefine")
 while read_count < book_count * 2:
     read_count = read_count + 1
-    if understood_count == 9:
+    if understood_count == 10 :
         print(f"Buku ke {understood_count + 1} Belum paham")
     else:
         understood_count = understood_count + 1
