@@ -39,7 +39,7 @@ for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
 print('\nAmbil elemen ke-2')
-buku = daftar_buku.pop(1)
+buku = daftar_buku.pop(1) #perintah pop menghapus element daftar buku ke 2
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
@@ -47,7 +47,7 @@ print('\nBuku yang di ambil')
 print(buku)
 
 print('\nPop')
-daftar_buku.pop()
+daftar_buku.pop() #perintah pop menghapus element daftar buku terakhir
 for i in range(0,len(daftar_buku)):
     print(daftar_buku[i])
 
@@ -56,3 +56,10 @@ daftar_buku = ['Seven Habits', 'How to influence people', 'first thing first','4
 daftar_buku.pop(-1)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+print('\nPerintah Menghapus dengan del')
+daftar_buku = ['Seven Habits', 'How to influence people', 'first thing first','4DX']
+del daftar_buku[0]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
